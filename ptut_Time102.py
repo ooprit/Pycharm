@@ -22,6 +22,7 @@ class Time:
             new_time.minute = self.minute - other_time.minute
 
         # add hours and correct if sum is >= 24
+        # random comment
         if (self.hour + other_time.hour) >= 24:
             new_time.hour = (self.hour + other_time.hour) - 24
         else:
